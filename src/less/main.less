@@ -1,0 +1,34 @@
+// @import "http://fonts.googleapis.com/css?family=Roboto:400,500,700,300";
+// @import "http://fonts.googleapis.com/css?family=Lobster";
+@import "node_modules/material-ui/src/less/scaffolding.less";
+
+@primary-1-color: @indigo-500;
+@primary-2-color: @indigo-700;
+@primary-3-color: @indigo-100;
+@accent-1-color: @deep-orange-A200;
+@accent-2-color: @deep-orange-A400;
+@accent-3-color: @deep-orange-A100;
+
+@import "node_modules/material-ui/src/less/components.less";
+
+h1 {
+  // font-family: 'Lobster', sans-serif;
+}
+
+.mui-left-nav-menu .header {
+  cursor: pointer;
+  .mui-font-style-headline;
+  .mui-text-full-white;
+  line-height: @app-bar-height;
+  .mui-font-weight-light;
+  background-color: @primary-1-color;
+  padding-left: @desktop-gutter;
+  padding-top: 0;
+  margin-bottom: @desktop-gutter-mini;
+}
+
+.total {
+  background-color: @primary-3-color;
+  padding: @desktop-gutter;
+  font-size: 2em;
+}
